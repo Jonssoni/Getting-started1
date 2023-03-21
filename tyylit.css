@@ -2,3 +2,11 @@ body {
     background-color: #f3e5d6; /* light brown background */
     color: #ff0000; /* red font */
   }
+
+nav {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+
+}
+
+

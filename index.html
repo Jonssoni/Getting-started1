@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./tyylit.css">
+    <link rel="stylesheet" href="./tyylit.css">  
     <title>Document</title>
 
     <script src="java.js"></script>
 </head>
 <body>
+    <nav>
     <h1>Tulosta nimi</h1>
     <form id="oma">
-        etunimi<br>
+        Etunimi<br>
         <input type="text" id="etunimi"> <br>
-        sukunimi<br>
+        Sukunimi<br>
         <input type="text" id="sukunimi"> <br>
         <button type="button" onclick="tulostanimi(oma.etunimi.value, oma.sukunimi.value)">
         Tulosta nimi <br>
      </button>
     </form>
+    </nav>
     <div id="results"></div>
 </body>
 </html>
